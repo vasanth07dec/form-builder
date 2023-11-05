@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="form_builder.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+   </head>
+<body>
+    <main>
+        <div class="left-section">
+            <ul>
+
+                <li class="title">Form Designer</li>
+
+                <li class="drag" draggable="true" id="title">
+                    <div class="icon"><i class="fa-solid fa-heading" style="color: #f9fafb;"></i></div>
+                    Title
+                </li>
+
+                <li class="drag" draggable="true" id="label">
+                    <div class="icon"><span class="label">T</span></div>
+                    Label
+                </li>
+
+                <li class="drag" draggable="true" id="textbox">
+                    <div class="icon"><span class="rectang">Rect</span></div>
+                    Text box
+                </li>
+
+                <li class="drag" draggable="true" id="button">
+                    <div class="icon"><span class="rectang btn">Rect</span></div>
+                    Button
+                </li>
+
+                <li class="drag" draggable="true" id="textdropdown">
+                    <div class="icon"><span class="rectang btn">Rect</span><span class="triangle-text-box">
+                        <i class="fa-solid fa-caret-down" style="color: #6b6f76;"></i></span></div>
+                        Text Box
+                </li>
+
+                <li class="drag" draggable="true" id="checkbox">
+                    <div class="icon"><span class="check-box">ch</span></div>
+                    Check Box
+                </li>
+
+                <li class="drag" draggable="true" id="radioBtn">
+                    <div class="icon"><span class="round" >ch</span></div>
+                    Radio button
+                </li>
+
+                <li class="drag" draggable="true" id="navigation">
+                    <div class="icon"><a href="#">link</a></div>
+                    navigation
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="right-section">
+
+            <div class="option-btn">
+                <button class="publish">Publish</button>
+                <button class="preview">Preview</button>
+            </div>
+
+            <div class="workspace">
+                
+            </div>
+        </div>
+    </main>
+    <script src="form_builder.js"></script>
+</body>
+</html>
